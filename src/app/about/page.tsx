@@ -2,18 +2,12 @@
 import React from "react";
 import { BackgroundLines } from "../../components/ui/background-lines";
 import ButtonAnimation from "../../components/ButtonAnimation/button"
-import Link from "next/link";
 import {
-  FaEnvelope,
-  FaGithub,
   FaGraduationCap,
-  FaLinkedin,
   FaReact,
 } from "react-icons/fa";
 import { IoTerminal } from "react-icons/io5";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
-import { Button } from "@/components/ui/button";
-
 const About = () => {
   const techStack = [
     "HTML",
@@ -27,20 +21,7 @@ const About = () => {
   const words =
     "B.Tech IT Graduate • Front-End Developer • React & Next.js Enthusiast • UI/UX Explorer • Open Source Contributor";
 
-  const socialLinks = [
-    {
-      href: "https://github.com/harsh999111",
-      icon: <FaGithub />,
-    },
-    {
-      href: "https://www.linkedin.com/in/harsh-baraiya-774155250/",
-      icon: <FaLinkedin />,
-    },
-    {
-      href: "mailto:baraiyaharsh319@gmail.com",
-      icon: <FaEnvelope />,
-    },
-  ];
+  
 
   return (
     <div>

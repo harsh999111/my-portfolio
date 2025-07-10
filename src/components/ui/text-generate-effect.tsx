@@ -29,7 +29,7 @@ export const TextGenerateEffect = ({
         delay: stagger(0.2),
       }
     );
-  }, []); // ✅ Only run on mount
+  }, [animate, duration, filter]); // ✅ Only run on mount
 
   return (
     <div className={cn("font-bold", className)}>
